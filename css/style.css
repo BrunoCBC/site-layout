@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --cor-primaria: #5eb3c3;
+    --cor-secundaria: #444644;
+    --cor-fundo: #e6e7e8;
+}
+
+header{
+    background-color: #5eb3c3;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    color: white;
+}
+
+header div{
+    margin: 60px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+header div ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+}
+
+header div div{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    font-size: small;
+}
+
+.header-logo{
+    justify-content: center;
+}
+
+header div div h1{
+    font-size: 80px;
+}
+
+
+.sec1{
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 10px;
+    font-size: small;
+}
+
+.sec1 div{
+    max-width: 70%;
+}
+
+.sec1 div h2{
+    font-size: 40px;
+}
+
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    font-size: small;
+}
+
+.sec2 div{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec2 div div{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2 div div div h2{
+    font-size: x-large;
+}
+
+.fully{
+    color: var(--cor-primaria);
+}
+
+footer{
+    background-color: var(--cor-secundaria);
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+footer div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 25%;
+}
+footer div div div{
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+}
+
+.copyright{
+    background-color: var(--cor-primaria);
+    padding: 5px;
+}
